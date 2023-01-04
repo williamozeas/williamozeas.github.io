@@ -3,8 +3,7 @@ title: William Ozeas
 subtitle: A Portfolio
 email: williamozeas@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/docs" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: "https://williamozeas.github.io" # the base hostname & protocol for your site
 author:
 street_address: 
 city: 
