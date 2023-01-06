@@ -1,0 +1,14 @@
+{% assign tiles = site.html_pages | where_exp: "item", "item.featured_game == true" | sort: 'tile_index' %}
+<section id="one" class="tiles featured">
+  {% for tile in tiles limit:site.tiles-count %}
+  <article>
+    <span class="image" >
+      <img src="{{ tile.image }}" alt="{{ tile.title }}" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link" >{{ tile.title }}</a></h3>
+      <p>{{ tile.description }}</p>
+    </header>
+  </article>
+  {% endfor %}
+</section>

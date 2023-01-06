@@ -1,20 +1,15 @@
 # site settings
 title: William Ozeas
-subtitle: A Portfolio
+subtitle: Portfolio
 email: williamozeas@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: Programming & Sound
 url: "https://williamozeas.github.io" # the base hostname & protocol for your site
-author:
-street_address: 
-city: 
-state: 
-zip_code:
-country:
+author: William Ozeas
 phone: (818) 421-4380
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -28,7 +23,7 @@ socials:
   LinkedIn: https://www.linkedin.com/in/william-ozeas/
   Twitter: https://twitter.com/WillOzeas
   Facebook:
-  Slack:
+  Soundcloud: https://soundcloud.com/willowpet
 
 # build settings
 markdown: kramdown

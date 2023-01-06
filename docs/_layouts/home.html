@@ -19,10 +19,10 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
+                <h2 style="text-transform: uppercase; ">{{ site.description }}</h2>
+                <!-- <ul class="actions">
                     <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </section>
@@ -30,22 +30,21 @@
     <!-- Main -->
     <div id="main">
 
-        <!-- One -->
-        {% include tiles.html %}
 
         <!-- Two -->
-        <section id="two">
+        <!-- <section id="two">
             <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
+                <div class="content">
+                    <h4>This website has sound!</h4>
+                    <ul class="actions">
+                        <li><a class="button scrolly">Mute</a></li>
+                    </ul>
+                </div>
             </div>
-        </section>
+        </section> -->
 
+        <!-- One -->
+        {% include tiles.html %}
     </div>
 
     {% include footer.html %}

@@ -1,9 +1,13 @@
 ---
-title: Landing
+title: polyrhythm
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
-nav-menu: true
+description: 'A Solo Rhythmic Challenge - Fall 2021'
+image: assets/images/polyrhythm_still_4.jpg
+nav-menu: false
+show_tile: false
+featured_game: true
+tile_index: 2
+game_color: 2
 ---
 
 <!-- Main -->
