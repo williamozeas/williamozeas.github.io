@@ -13,13 +13,21 @@ tile_index: 0
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<header class="major">
-			<h1>About Me</h1>
-		</header>
-
-<!-- Content -->
-<h2 id="content">Resume</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
-
+		<!-- Content -->
+		<!-- <h2 id="content">Resume</h2> -->
+		<div>
+			<div class="float-child" style="width: 66%">
+				<header class="major">
+					<h1>About Me</h1>
+				</header>
+				<p>Hey! My name is Will Ozeas, and I'm a programmer and sound artist who loves to work on video games. I am currently at Carnegie Mellon University studying Computer Science and Music Composition. I specialize in audio programming, but I have plenty of experience with gameplay, systems, and graphics programming. I have the most experience working in Unity and C#, but I've also made games in pure C++ and Lua. For game audio, I specialize in FMOD middleware, although I've also experimented with making custom VST plug-ins for Unity with Max/MSP and RNBO. As a sound designer and musician, I generally use Logic Pro X as my DAW, but I also have experience with Ableton and Pro Tools.</p>
+				<p>You can find my full resumé <a href="resume.html">here</a>, and my academic record <a href="academics.html">here.</a></p>
+			</div>
+			<span class="float-child" style="width: 34%"><img src="{% link assets/images/portrait_2.jpeg %}" alt="" /></span>
+		</div>
+		<!-- Div to fix footer alignment issues with float -->
+		<div style="opacity: 0;">.</div>
+	</div>
+</section>
 
 </div>
