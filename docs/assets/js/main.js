@@ -219,6 +219,12 @@
 					window.setTimeout(function() {
 						$window.triggerHandler('scroll');
 					}, 100);
+					
+					if(audioOn) {
+						document.getElementById('audio_toggle').innerHTML = '<a onClick="setAudio(false)" class="button special small" >Website Audio: ON</a>';
+					} else {
+						document.getElementById('audio_toggle').innerHTML = '<a onClick="setAudio(true)" class="button small" >Website Audio: OFF</a>';
+					}
 
 				});
 

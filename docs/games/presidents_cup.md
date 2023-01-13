@@ -1,11 +1,11 @@
 ---
 title: President's Cup
 layout: landing
-description: 'Graphics From The Ground Up - Winter 2022'
+description: 'Training the Best and Brightest - Winter 2022'
 image: assets/images/presidents_cup_still_1.jpg
 nav-menu: false
 show_tile: false
-featured_game: true
+featured_game: false
 tile_index: 0
 game_color: 1
 ---

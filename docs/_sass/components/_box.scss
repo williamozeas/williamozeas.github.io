@@ -11,6 +11,29 @@
 		margin-bottom: _size(element-margin);
 		padding: 1.5em;
 
+		&.showcase {
+			padding: 1em;
+			padding-right: 0.5em;
+			margin: -1em;
+			margin-right: 0;
+			margin-bottom: 1em;
+			// transition: all .4s ease;
+
+			@include breakpoint(medium) {
+				margin: 0.5em;
+				margin-bottom: 1em;
+			}
+			&.polyrhythm {
+				&.selected {
+					//on highlight
+				}
+			}
+			
+			// display: contents;
+			flex: 1;
+			height: 100%;
+		}
+
 		> :last-child,
 		> :last-child > :last-child,
 		> :last-child > :last-child > :last-child {

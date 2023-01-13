@@ -2,7 +2,7 @@
 title: Dimensional Rift 
 layout: landing
 description: 'Mind-Bending Co-op - Fall 2022'
-image: assets/images/aperture_still_5.png
+image: assets/images/dimensional_rift_still_3.jpg
 nav-menu: false
 show_tile: false
 featured_game: true

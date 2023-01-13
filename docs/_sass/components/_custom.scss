@@ -1,0 +1,47 @@
+
+//rows for custom pages
+	.polyrhythm {
+        h3 {
+            margin-bottom: 0.25em;
+        }
+        display: flex;
+        flex-wrap: wrap;
+        > div {
+            @include breakpoint(medium) {
+                margin-bottom: 1em;
+                margin-right: -1em;
+            }
+        }
+		> :nth-child(4n - 2) {
+			.box {
+				&.selected {
+					background-color: #00afaf;
+				}
+			}
+		}
+		> :nth-child(4n - 1) {
+			.box {
+				&.selected {
+					background-color: #d626a1;
+				}
+			}
+		}
+		> :nth-child(4n) {
+			.box {
+				&.selected {
+					background-color: #36ad54;
+				}
+			}
+		}
+		> :nth-child(4n - 3) {
+			.box {
+				&selected {
+					background-color: #a257e7;
+				}
+			}
+		}
+	}
+
+    .bottom-box {
+        @include breakpoint(medium) { margin-left:-1.25em; }
+    }
