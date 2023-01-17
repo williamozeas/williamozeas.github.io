@@ -35,7 +35,7 @@
 		}
 		> :nth-child(4n - 3) {
 			.box {
-				&selected {
+				&.selected {
 					background-color: #a257e7;
 				}
 			}
@@ -45,3 +45,16 @@
     .bottom-box {
         @include breakpoint(medium) { margin-left:-1.25em; }
     }
+
+	.bottom-box-image {
+		margin-left: -1.25em; 
+		display: flex; 
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+		img {
+			flex: 1;
+			object-fit: contain;
+		}
+		@include breakpoint(medium) { display: inherit; height: auto;}
+	}
