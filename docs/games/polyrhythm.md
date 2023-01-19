@@ -14,10 +14,10 @@ game_color: 2
 <!-- One -->
 <section id="one">
 	<div class="inner" style="margin-top: -10px;">
-		<h5>Warning: Pag containes gifs with flashing lights</h5>
+		<h4>Warning: Page containes gifs with flashing lights</h4>
 		<p>Polyrhythm is a two-button rhythm game for musicians. Instead of a typical rhythm game, where players test their timing, reactions, and memory, polyrhythm tests the player's ability to recognize musical patterns and play them precisely in two hands. The game consists of a series of "loops" that repeat a rhythmic pattern in both hands, like drums. The player must recognize the pattern and play it to fill up the background with a new color, at which point the music seamlessly transitions to the next loop (with a light show along the way). As my first solo project in Unity, I learned a lot making polyrhythm, especially about planning out game-wide systems and electronic music.</p>
-		<a class="button" href="https://willozeas.itch.io/polyrhythm">Itch.io</a>
-		<a class="button" href="https://github.com/williamozeas/polyrhythm/">GitHub</a>
+		<a class="button" href="https://willozeas.itch.io/polyrhythm" target="_blank">Itch.io</a>
+		<a class="button" href="https://github.com/williamozeas/polyrhythm/" target="_blank">GitHub</a>
 	</div>
 </section>
 
