@@ -25,9 +25,9 @@ function onPlayClick(id) {
     el.volume = 1;
 }
 
-function mouseoverBox(mousingIn, id, fade = true) {
+function mouseoverBox(mousingIn, id, parent = "", fade = true) {
     setMute(!mousingIn, id, fade);
-    setLightBox(mousingIn, id);
+    setLightBox(mousingIn, id, parent);
 }
 
 function setMute(mute, id, fade = true) {
@@ -51,9 +51,14 @@ function setMute(mute, id, fade = true) {
     }
 }
 
-function setLightBox(lit, id) {
-    var el = document.getElementById(id);
-    var box = el.parentElement;
+function setLightBox(lit, id, parent = "") {
+    var box;
+    if(parent == "") {
+        var el = document.getElementById(id);
+        var box = el.parentElement;
+    } else {
+        var box = document.getElementById(parent);
+    }
     const $box = $(box);
     if(lit) {
         $box.stop(false, true);

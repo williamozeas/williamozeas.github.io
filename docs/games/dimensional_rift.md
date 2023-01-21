@@ -26,12 +26,12 @@ game_color: 4
 	<div class="inner">
 		<div class="row uniform dimensional-rift">
 			<script>
-				vid_ids = ['vid1', 'vid2', 'vid3'];
+				vid_ids = ['vid1', 'vid2', 'vid3', 'vid4'];
 			</script>
 			<div class="4u 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid1')" onmouseleave="mouseoverBox(false, 'vid1')" onmouseclick="onPlayClick('vid1')">
 					<video loop id="vid1" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/polyrhythm_intro.mp4" type="video/mp4">
+						<source src="../assets/videos/dimensional_rift_building.mp4" type="video/mp4">
 					</video>
 					<h3>Building System</h3>
 					<p>As you play Dimensional Rift, you gradually build up your base with revenue-generating farms, moveable hay bales, and static buildings to be used as platforms. I wrote all of the building code in the game (except for hay bales being moveable), including placement on the grid, enemy targeting and health, and farm growth and harvesting.</p>
@@ -41,7 +41,7 @@ game_color: 4
 			<div class="4u 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid2')" onmouseleave="mouseoverBox(false, 'vid2')" onmouseclick="onPlayClick('vid2')">
 					<video loop id="vid2" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/polyrhythm_transitions.mp4" type="video/mp4">
+						<source src="../assets/videos/dimensional_rift_gameflow.mp4" type="video/mp4">
 					</video>
 					<h3>Dialogue Pipeline</h3>
 					<p>Throughout the game, Sam and Freida converse about themselves and their situation, growing closer as you survive more waves. I worked with the lead writer to implement a pipeline from .txt files into the game, where different conversations require different levels to occur. I also combined my own code with that of another programmer and an artist that triggered and displayed the conversations into a fully functional conversation system.</p>
@@ -51,7 +51,7 @@ game_color: 4
 			<div class="4u$ 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid3')" onmouseleave="mouseoverBox(false, 'vid3')" onmouseclick="onPlayClick('vid3')">
 					<video loop id="vid3" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/polyrhythm_demonstration.mp4" type="video/mp4">
+						<source src="../assets/videos/dimensional_rift_gun_haybale.mp4" type="video/mp4">
 					</video>
 					<h3>Game Flow</h3>
 					<p>Much of my time was devoted to writing classes that were the basis for larger systems. For instance, I wrote a class to represent waves for the game designers' ease of use. I also wrote the code to trigger waves using C# events with attached wave objects, and helped other programmers integrate their features into the system. I go into more detail in the leadership section.</p>
@@ -59,15 +59,17 @@ game_color: 4
 				</div>
 			</div>
 			<div class="12u 6u$(medium) 12u$(small)">
-				<div class="row box showcase"  onmouseover="setLightBox(true, 'design')" onmouseleave="setLightBox(false, 'design')">
+				<div id="vid4parent" class="row box showcase" onmouseover="mouseoverBox(true, 'vid4', 'vid4parent')" onmouseleave="mouseoverBox(false, 'vid4', 'vid4parent')" onmouseclick="onPlayClick('vid4')">
 					<div class="4u 12u$(medium) bottom-box-image" id="design">
-						<img  src="{% link assets/images/polyrhythm_still_5.jpg %}" alt="" data-position="25% 25%" />
+						<video loop id="vid4" controls play_on_click width="100%" style="margin-left: -0.25em;">
+							<source src="../assets/videos/dimensional_rift_opening_cutscene.mp4" type="video/mp4">
+						</video>
 					</div>
 					<div class="8u 12u$(medium) bottom-box" style="padding-bottom: 1em;">
 						<header>
 							<h3>Team Leadership</h3>
 						</header>
-						<p>Dimensional Rift was my first time leading a full team on a game - I had lead small sound teams before, but those experiences were much different. Much of my time spent with this game was spent aiding, consolidating, and refactoring the work of others. For the sound team, I mostly let the members decide on creative direction and acted as a producer until near the end of the project, when I stepped in to fill holes in sound effects and implementation. However, for the programming team I answered lots of questions, integrated people's code, and fixed their bugs/git issues. It was my first time in a managerial code role, but I found I did enjoy it quite a bit.</p>
+						<p>Dimensional Rift was my first time leading a full team on a game - I had lead small sound teams before, but those experiences were much different. Much of my time spent with this game was spent aiding, consolidating, and refactoring the work of others. For the sound team, I mostly let the members decide on creative direction and acted as a producer until near the end of the project, when I stepped in to fill some holes in sound effects and implementation. However, for the programming team I answered lots of questions, integrated people's code, and fixed their bugs/git issues. It was my first time in a managerial code role, but I found I did enjoy it quite a bit.</p>
 					</div>
 				</div>
 			</div>
