@@ -2,9 +2,9 @@
 layout: page
 title: Resumé
 image: assets/images/minion_still_1.png
-nav-menu: true
-show_tile: true
-tile_index: 3
+nav-menu: false
+show_tile: false
+tile_index: 0
 ---
 
 <!-- Main -->
@@ -18,6 +18,6 @@ tile_index: 3
 		</header>
 
 <!-- Content -->
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<p>You can <a href="assets/files/Will_Ozeas_Resume.pdf">download my resume here</a>, or <a href="https://gist.github.com/williamozeas/e5d60bf0c1fc42669c4660ce3176aaa6">view a code sample here</a>.</p>
 
 </div>

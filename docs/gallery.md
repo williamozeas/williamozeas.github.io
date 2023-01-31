@@ -86,7 +86,7 @@ tile_index: 2
 					</header>
 					<p>As a research assistant at Carnegie Mellon University's Entertainment Technology Center, I developed a multiplayer video game in Unity with Mirror for the 2022 President's Cup cybersecurity competition. I was one of five programmers and the only sound designer on a team of over 20. We designed minigames and an interactive spaceship. I personally worked on <b>game logic</b>, <b>state synchronization</b>, and designed <b>an audio manager with audio source pooling </b>in Unity, along with designing <b>over twenty sound effects</b>. </p>
 					<ul class="actions">
-						<li><a href="https://www.cisa.gov/presidentscup" target="_blank" class="button small">Learn more about the competition</a></li>
+						<li><a href="games/presidents_cup.html" class="button next">Read more</a></li>
 					</ul>
 				</div>
 			</div>
