@@ -82,9 +82,9 @@ tile_index: 2
 			<div class="content">
 				<div class="inner">
 					<header class="major">
-						<h3>President's Cup 2022</h3>
+						<h3>Cubespace - President's Cup 2022</h3>
 					</header>
-					<p>As a research assistant at Carnegie Mellon University's Entertainment Technology Center, I developed a multiplayer video game in Unity with Mirror for the 2022 President's Cup cybersecurity competition. I was one of five programmers and the only sound designer on a team of over 20. We designed minigames and an interactive spaceship. I personally worked on <b>game logic</b>, <b>state synchronization</b>, and designed <b>an audio manager with audio source pooling </b>in Unity, along with designing <b>over twenty sound effects</b>. </p>
+					<p>As a research assistant at Carnegie Mellon University's Entertainment Technology Center, I developed a multiplayer video game in Unity with Mirror for the 2022 President's Cup cybersecurity competition. I was one of five programmers and the only sound designer on a team of over 20. We designed minigames and an interactive spaceship for a reusable framework for delivering cybersecurity challenges. I personally worked on <b>game logic</b>, <b>state synchronization</b>, and designed <b>an audio manager with audio source pooling </b>in Unity, along with designing <b>over twenty sound effects</b>. </p>
 					<ul class="actions">
 						<li><a href="games/presidents_cup.html" class="button next">Read more</a></li>
 					</ul>
