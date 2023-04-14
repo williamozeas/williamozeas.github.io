@@ -18,7 +18,7 @@ tile_index: 0
 		<div style="display: box; display: -webkit-box; display: -moz-box;">
 			<div class="float-child" style="box-flex: 2;">
 				<ul class="actions">
-					<li><a class="button" href="assets/files/Will_Ozeas_Resume.pdf">Resumé</a></li>
+					<li><a class="button" href="assets/files/William_Ozeas_Resume.pdf">Resumé</a></li>
 					<li><a class="button" href="https://gist.github.com/williamozeas/8b0a425c9ad2cc848d458bb09fa38b3a">Code Sample</a></li>
 					<li><a class="button" href="academics.html">Transcript</a></li>
 				</ul>
