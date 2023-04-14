@@ -18,6 +18,6 @@ tile_index: 0
 		</header>
 
 <!-- Content -->
-<p>You can <a href="assets/files/Will_Ozeas_Resume.pdf">download my resume here</a>, or <a href="https://gist.github.com/williamozeas/e5d60bf0c1fc42669c4660ce3176aaa6">view a code sample here</a>.</p>
+<p>You can <a href="assets/files/William_Ozeas_Resume.pdf">download my resume here</a>, or <a href="https://gist.github.com/williamozeas/e5d60bf0c1fc42669c4660ce3176aaa6">view a code sample here</a>.</p>
 
 </div>
