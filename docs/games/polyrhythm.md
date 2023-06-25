@@ -5,7 +5,7 @@ description: 'A Solo Rhythmic Challenge - Fall 2021'
 image: assets/images/polyrhythm_still_4.jpg
 nav-menu: false
 show_tile: false
-featured_game: true
+featured_game: false
 tile_index: 2
 game_color: 2
 ---

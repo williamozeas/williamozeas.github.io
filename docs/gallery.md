@@ -30,6 +30,95 @@ tile_index: 2
 			<div class="content">
 				<div class="inner">
 					<header class="major">
+						<h3>Pig's Blood</h3>
+					</header>
+					<p></p>
+					<ul class="actions">
+						<li><a href="https://willozeas.itch.io/giuseppe" class="button">Itch.io</a></li></li>
+						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li></li>
+						<li><a href="https://soundcloud.com/willowpet/sets/guiseppe" class="button">Soundtrack</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<a href="games/aperture.html" class="image fill">
+				<img src="{% link assets/images/aperture_still_4.png %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>Tanks In Advance</h3>
+					</header>
+					<p></p>
+					<ul class="actions">
+						<li><a href="https://willozeas.itch.io/tanks-in-advance" class="button">Itch.io</a></li></li>
+						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li></li>
+						<li><a href="https://soundcloud.com/willowpet/sets/guiseppe" class="button">Soundtrack</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<a href="https://willozeas.itch.io/giuseppe" class="image fill">
+				<img src="{% link assets/images/aperture_still_4.png %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>Giuseppe</h3>
+					</header>
+					<p>Giuseppe is a puzzle platformer about a time-traveling immigrant mouse who must prevent his ship to America from sinking. It was created for CMU 53-471. I did most of the programming for this project, which involved <b>integrating modified time-rewind & player movement libraries</b>, <b>creating several puzzle mechanics that integrate with the time-rewind system</b>, <b>creating extensible classes for timed events and reversible sound effects</b>, and a <b>Unity shader/render feature</b> for desaturating the environment during time rewind.</p>
+					<ul class="actions">
+						<li><a href="https://willozeas.itch.io/giuseppe" class="button">Itch.io</a></li></li>
+						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li></li>
+						<li><a href="https://soundcloud.com/willowpet/sets/guiseppe" class="button">Soundtrack</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<a href="https://willozeas.itch.io/mediocre-basketball-player" class="image fill">
+				<img src="{% link assets/images/IWAMB_still_1.jpg %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>I Was A Mediocre Basketball Player</h3>
+					</header>
+					<p>I Was A Mediocre Basketball Player is an arena shooter where the player fights basketball monsters. It's the second game I worked on in CMU 53-471. I did a lot of the programming, including <b>toon shading</b>, <b>enemy behavior</b>, and a <b>slam dunk</b> special move. I also wrote music, made sound effects, and voice acted.</p>
+					<ul class="actions">
+						<li><a href="https://willozeas.itch.io/mediocre-basketball-player" class="button">Itch.io</a></li></li>
+						<li><a href="https://github.com/williamozeas/MediocreBasketballPlayer_Weekender" class="button">GitHub</a></li></li>
+						<li><a href="https://soundcloud.com/willowpet/basket-case?si=172261b240254bc5bdffde3f8ca344dd" class="button">Soundtrack</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<a href="https://willozeas.itch.io/rooted-rumble" class="image fill">
+				<img src="{% link assets/images/RootedRumble_still_1.jpg %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>Rooted Rumble</h3>
+					</header>
+					<p>Rooted Rumble is a snake-like game in which 4 players compete to collect water drops and avoid running into each other as underground roots. It was made for the Global Game Jam 2023, and was the first game with my team for CMU 53-471 Game Design, Prototyping, and Production. I did some programming, working on <b>menus, game state, and outline shaders</b>, as well as the <b>adaptive jazz soundtrack</b> that evolves as players lose. Both the music and sound effects were also made by me.</p>
+					<ul class="actions">
+						<li><a href="https://willozeas.itch.io/rooted-rumble" class="button">Itch.io</a></li>
+						<li><a href="https://soundcloud.com/willowpet/rooted-rumble-rooted-rumble-ost-1?si=3364a42402f54b699da20f1ba0797567" class="button">Soundtrack</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<a href="games/aperture.html" class="image fill">
+				<img src="{% link assets/images/aperture_still_4.png %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
 						<h3>Aperture</h3>
 					</header>
 					<p>Built nearly from the ground up in C++ using OpenGL, Aperture is my most technically impressive game by far. In it, the player explores a small island, taking pictures of the native flora and fauna. As a programmer and sound designer on a team of three, I <b>implemented a texture pipeline</b>, <b>shadow maps</b>, <b>camera depth-of-field</b>, <b>hardware occlusion culling,</b> and other custom shaders, along with <b>game logic</b>, <b>picture grading</b>, <b>UI</b>, and more.</p>

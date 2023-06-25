@@ -118,6 +118,69 @@
 		}
 	}
 
+	.tanks-in-advance {
+        h3 {
+            margin-bottom: 0.25em;
+        }
+        display: flex;
+        flex-wrap: wrap;
+		justify-content: center;
+        > div {
+            @include breakpoint(medium) {
+                margin-bottom: 1em;
+                margin-right: -1em;
+            }
+        }
+
+		> :nth-child(2n) {
+			.box {
+				&.selected {
+					background-color: #0c6cbb;
+				}
+			}
+		}
+		> :nth-child(2n - 1) {
+			.box {
+				&.selected {
+					background-color: #d441b4;
+				}
+			}
+		}
+	}
+
+
+	.pigs-blood {
+        h3 {
+            margin-bottom: 0.25em;
+			color: #ece1ce;
+        }
+		color: #ece1ce;
+        display: flex;
+        flex-wrap: wrap;
+		justify-content: center;
+        > div {
+            @include breakpoint(medium) {
+                margin-bottom: 1em;
+                margin-right: -1em;
+            }
+        }
+
+		> :nth-child(2n) {
+			.box {
+				&.selected {
+					background-color: #8d1313;
+				}
+			}
+		}
+		> :nth-child(2n - 1) {
+			.box {
+				&.selected {
+					background-color: #382c1c;
+				}
+			}
+		}
+	}
+
     .bottom-box {
         @include breakpoint(medium) { margin-left:-1.25em; }
     }

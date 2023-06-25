@@ -5,7 +5,7 @@ description: 'Mind-Bending Co-op - Fall 2022'
 image: assets/images/dimensional_rift_still_3.jpg
 nav-menu: false
 show_tile: false
-featured_game: true
+featured_game: false
 tile_index: 3
 game_color: 4
 ---
@@ -14,7 +14,7 @@ game_color: 4
 <!-- One -->
 <section id="one">
 	<div class="inner" style="margin-top: -10px;">
-		<p>Dimensional Rift is an asymmetrical co-op wave defense game where one player is the hardened space warrior, Sam, and the other is the cheery and naïve farmer, Freida. When Sam jumps through a portal to Freida's world, they bring with them an alien invasion. The pair must work together to repair and defend Freida's farm. Freida evades enemies, collects coins, and rearranges the farm to help Sam navigate as they defeat aliens and rebuild buildings. However, there's a catch: Freida navigates her world from a top-down perspective, but Sam navigates it like a 2D platformer - meaning Freida's walls are Sam's platforms.<br><br>I co-lead Dimensional Rift development along with Adrian Ma as part of CMU's Game Creation Society Fall 2022. Below are three areas I contributed considerably to, although my greatest contribution was made via management duties with the audio and programming teams.</p>
+		<p>Dimensional Rift is an asymmetrical co-op wave defense game where one player is the hardened space warrior, Sam, and the other is the cheery and naïve farmer, Freida. When Sam jumps through a portal to Freida's world, they bring with them an alien invasion. The pair must work together to repair and defend Freida's farm. Freida evades enemies, collects coins, and rearranges the farm to help Sam navigate as they defeat aliens and rebuild buildings. However, there's a catch: Freida navigates her world from a top-down perspective, but Sam navigates it like a 2D platformer - meaning Freida's walls are Sam's platforms.<br><br>I co-lead Dimensional Rift development along with <a href="https://ama28.github.io" target="_blank">Adrian Ma</a> as part of CMU's Game Creation Society Fall 2022. Below are three areas I contributed considerably to, although my greatest contribution was made via management duties with the audio and programming teams.</p>
 		<p></p>
 		<a class="button" href="https://arkaio.itch.io/dimensional-rift" target="_blank">Itch.io</a>
 		<a class="button" href="https://www.gamecreation.org/games/dimensional_rift" target="_blank">Game Creation Society</a>
