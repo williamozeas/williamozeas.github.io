@@ -1,8 +1,8 @@
 ---
 title: Pig's Blood
 layout: landing
-description: 'A Mysterious Visual Novel - Spring 2023'
-image: assets/images/dimensional_rift_still_3.jpg
+description: 'A Fantasy-Noir Visual Novel - Spring 2023'
+image: assets/images/PigsBlood/PigsClip4.gif
 nav-menu: false
 show_tile: false
 featured_game: true
@@ -12,10 +12,11 @@ game_color: 3
 <!-- Main -->
 <div class="main pigs-blood" id="main" onclick="onPlayClick('a');">
 <!-- One -->
+<!-- TODO: ADD TRAILER -->
 <section id="one">
 	<div class="inner" style="margin-top: -10px;">
 		<p>Pig's Blood: A Rabid Wolf Hunt is a detective noir-style visual novel where you play as Detective Shepherd, known as the Boy Who Cried Wolf for his many successful arrests. The player must review evidence, interrogate suspects and call them out on their lies to find the truth behind the murder of one of the Pig brothers.</p>
-        <p>This was my fourth and final game with Weekender Studios, my team for CMU 53-471, members of which can be found in the itch.io description. I very hard on this project, writing over ten minutes of music and over 2000 lines of dialogue on top of programming most of the game.</p>
+        <p>This was my fourth and final game with Weekender Studios, my team for CMU 53-471, members of which can be found in the itch.io description. I worked especially hard on this project, writing over ten minutes of music and over 2000 lines of dialogue on top of programming most of the game.</p>
 		<p></p>
 		<a class="button" href="https://willozeas.itch.io/pigs-blood" target="_blank">Itch.io</a>
 		<a class="button" href="https://github.com/williamozeas/Pigs-Blood" target="_blank">GitHub</a>
@@ -31,7 +32,7 @@ game_color: 3
 			<div class="4u 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid1')" onmouseleave="mouseoverBox(false, 'vid1')" onmouseclick="onPlayClick('vid1')">
 					<video loop id="vid1" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/dimensional_rift_building.mp4" type="video/mp4">
+						<source src="../assets/images/PigsBlood/MatchGirlClip.mov" type="video/mp4">
 					</video>
 					<h3>Scripting Pipeline</h3>
 					<p>I created a scripting system so that writers could easily write dialogue and trigger in-game actions from a single document. I integrated Yarn Spinner and created 26 commands that could trigger music, visual effects, animations, and checkpoints, set internal game logic about presenting evidence, and more. The game takes over an hour to complete because of how quickly we were able to create and iterate on new content.</p>
@@ -41,7 +42,7 @@ game_color: 3
 			<div class="4u 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid2')" onmouseleave="mouseoverBox(false, 'vid2')" onmouseclick="onPlayClick('vid2')">
 					<video loop id="vid2" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/dimensional_rift_gameflow.mp4" type="video/mp4">
+						<source src="../assets/images/PigsBlood/PigsClip2.mov" type="video/mp4">
 					</video>
 					<h3>Effects</h3>
 					<p>To stylize the game, I used a screen-space Kuwahara filter made by me in addition to built in Unity post-processing. Some effects mess with gameplay, such as the Kuwahara on text or the Panini Projection on hitboxes. So, these effects are manually adjusted based on game state. In addition, I created nine "effects" to be triggered from the script, which used screenshake, flashes, and sounds to give lines different feelings.</p>
@@ -51,7 +52,7 @@ game_color: 3
 			<div class="4u$ 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid3')" onmouseleave="mouseoverBox(false, 'vid3')" onmouseclick="onPlayClick('vid3')">
 					<video loop id="vid3" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/dimensional_rift_gun_haybale.mp4" type="video/mp4">
+						<source src="../assets/images/PigsBlood/EvidenceClip.mov" type="video/mp4">
 					</video>
 					<h3>Evidence Classes</h3>
 					<p>To make evidence pieces easily iterable, I refactored code from the other programmer to create template classes for multi-page pieces of evidence. To create a new piece of evidence, only code for visuals was necessary. Unfortunately, we only ended up creating two types of multi-page evidence, but the extensible classes was very flexible and would have been very useful in a larger game.</p>
@@ -62,7 +63,7 @@ game_color: 3
 				<div id="vid4parent" class="row box showcase" onmouseover="mouseoverBox(true, 'vid4', 'vid4parent')" onmouseleave="mouseoverBox(false, 'vid4', 'vid4parent')" onmouseclick="onPlayClick('vid4')">
 					<div class="4u 12u$(medium) bottom-box-image" id="design">
 						<video loop id="vid4" controls play_on_click width="100%" style="margin-left: -0.25em;">
-							<source src="../assets/videos/dimensional_rift_opening_cutscene.mp4" type="video/mp4">
+							<source src="../assets/images/PigsBlood/TinkerBellClip.mov" type="video/mp4">
 						</video>
 					</div>
 					<div class="8u 12u$(medium) bottom-box" style="padding-bottom: 1em;">
@@ -74,6 +75,9 @@ game_color: 3
 				</div>
 			</div>
 		</div>
+		<br>
+		<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1627889752&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willowpet" title="willowpet" target="_blank" style="color: #cccccc; text-decoration: none;">willowpet</a> · <a href="https://soundcloud.com/willowpet/sets/pigs-blood" title="Pig&#x27;s Blood OST" target="_blank" style="color: #cccccc; text-decoration: none;">Pig&#x27;s Blood OST</a></div>
+		<br>
 	</div>
 </section>
 

@@ -24,44 +24,40 @@ tile_index: 2
 <!-- Two -->
 <section id="two" class="spotlights">
 		<section>
-			<a href="games/aperture.html" class="image fill">
-				<img src="{% link assets/images/aperture_still_4.png %}" alt="" data-position="center center" />
+			<a href="games/pigs_blood.html" class="image fill">
+				<img src="{% link assets/images/PigsBlood/PigsClip4.gif %}" alt="" data-position="center center" />
 			</a>
 			<div class="content">
 				<div class="inner">
 					<header class="major">
 						<h3>Pig's Blood</h3>
 					</header>
-					<p></p>
+					<p>Pig's Blood: A Rabid Wolf Hunt is a detective noir-style visual novel where you must review evidence, interrogate suspects and call them out on their lies to solve the murder of one of the Three Little Pigs. This was my fourth and final game with Weekender Studios, my team for CMU 53-471. I programmed most of this game, including building <b>a scripting pipeline for writing</b>, <b>making visual effects</b>, <b>UI</b>, and more. In addition, I wrote over ten minutes of music and over 2000 lines of dialogue .</p>
 					<ul class="actions">
-						<li><a href="https://willozeas.itch.io/giuseppe" class="button">Itch.io</a></li></li>
-						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li></li>
-						<li><a href="https://soundcloud.com/willowpet/sets/guiseppe" class="button">Soundtrack</a></li>
+						<li><a href="games/pigs_blood.html" class="button next">Read more</a></li>
 					</ul>
 				</div>
 			</div>
 		</section>
 		<section>
-			<a href="games/aperture.html" class="image fill">
-				<img src="{% link assets/images/aperture_still_4.png %}" alt="" data-position="center center" />
+			<a href="games/tanks_in_advance.html" class="image fill">
+				<img src="{% link assets/images/TIA/Header_Clip.gif %}" alt="" data-position="center center" />
 			</a>
 			<div class="content">
 				<div class="inner">
 					<header class="major">
 						<h3>Tanks In Advance</h3>
 					</header>
-					<p></p>
+					<p>Tanks In Advance, my final game and second as game co-lead in the Game Creation Society, has players fight alongside their past selves from previous rounds to defeat their opponent in a tank battle. I co-lead a team of around 10 members, <b>managing the programming and sound teams</b>, learning to be a <b>VFX artist</b>, and working as a <b>gameplay programmer</b>. In the end, we created a remarkably polished game for GCS and won the Best Sound award.</p>
 					<ul class="actions">
-						<li><a href="https://willozeas.itch.io/tanks-in-advance" class="button">Itch.io</a></li></li>
-						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li></li>
-						<li><a href="https://soundcloud.com/willowpet/sets/guiseppe" class="button">Soundtrack</a></li>
+						<li><a href="games/tanks_in_advance.html" class="button next">Read more</a></li>
 					</ul>
 				</div>
 			</div>
 		</section>
 		<section>
 			<a href="https://willozeas.itch.io/giuseppe" class="image fill">
-				<img src="{% link assets/images/aperture_still_4.png %}" alt="" data-position="center center" />
+				<img src="{% link assets/images/Giuseppe/Rewind_Clip.gif %}" alt="" data-position="center center" />
 			</a>
 			<div class="content">
 				<div class="inner">
@@ -70,8 +66,8 @@ tile_index: 2
 					</header>
 					<p>Giuseppe is a puzzle platformer about a time-traveling immigrant mouse who must prevent his ship to America from sinking. It was created for CMU 53-471. I did most of the programming for this project, which involved <b>integrating modified time-rewind & player movement libraries</b>, <b>creating several puzzle mechanics that integrate with the time-rewind system</b>, <b>creating extensible classes for timed events and reversible sound effects</b>, and a <b>Unity shader/render feature</b> for desaturating the environment during time rewind.</p>
 					<ul class="actions">
-						<li><a href="https://willozeas.itch.io/giuseppe" class="button">Itch.io</a></li></li>
-						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li></li>
+						<li><a href="https://willozeas.itch.io/giuseppe" class="button">Itch.io</a></li>
+						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li>
 						<li><a href="https://soundcloud.com/willowpet/sets/guiseppe" class="button">Soundtrack</a></li>
 					</ul>
 				</div>
@@ -88,8 +84,8 @@ tile_index: 2
 					</header>
 					<p>I Was A Mediocre Basketball Player is an arena shooter where the player fights basketball monsters. It's the second game I worked on in CMU 53-471. I did a lot of the programming, including <b>toon shading</b>, <b>enemy behavior</b>, and a <b>slam dunk</b> special move. I also wrote music, made sound effects, and voice acted.</p>
 					<ul class="actions">
-						<li><a href="https://willozeas.itch.io/mediocre-basketball-player" class="button">Itch.io</a></li></li>
-						<li><a href="https://github.com/williamozeas/MediocreBasketballPlayer_Weekender" class="button">GitHub</a></li></li>
+						<li><a href="https://willozeas.itch.io/mediocre-basketball-player" class="button">Itch.io</a></li>
+						<li><a href="https://github.com/williamozeas/MediocreBasketballPlayer_Weekender" class="button">GitHub</a></li>
 						<li><a href="https://soundcloud.com/willowpet/basket-case?si=172261b240254bc5bdffde3f8ca344dd" class="button">Soundtrack</a></li>
 					</ul>
 				</div>

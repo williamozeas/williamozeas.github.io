@@ -18,13 +18,17 @@ show_tile: false
 
 <!-- Content -->
 <h2>Carnegie Mellon University</h2>
-<h5>GPA: 3.97</h5>
+<h4>Bachelor of Computer Science and Arts in Computer Science and Music Composition</h4>
+<h4>Minor in Game Design</h4>
+<h5>GPA: 3.98</h5>
 <div class="table-wrapper">
 	<table>
 		<div class="row">
 			<div class="6u 12u$(small)">
 				<h4>Awards</h4>
 				<ul>
+					<li>University Honors</li>
+					<li>BXA College Honors</li>
 					<li>Phi Beta Kappa Membership</li>
 					<li>Dean's List Fall 2019</li>
 					<li>Dean's List Fall 2020</li>
@@ -32,6 +36,7 @@ show_tile: false
 					<li>Dean's List Fall 2021</li>
 					<li>Dean's List Spring 2022</li>
 					<li>Dean's List Fall 2022</li>
+					<li>Dean's List Spring 2023</li>
 				</ul>
 			</div>
 		</div>
@@ -57,32 +62,32 @@ show_tile: false
 			<tr>
 				<td>53-471</td>
 				<td>Game Design, Prototyping, and Production</td>
-				<td>TBD</td>
+				<td>A</td>
 			</tr>
 			<tr>
 				<td>57-438</td>
 				<td>Multitrack Recording</td>
-				<td>TBD</td>
+				<td>A</td>
 			</tr>
 			<tr>
 				<td>57-463</td>
 				<td>Consumer Driven Composition for Contemporary Media</td>
-				<td>TBD</td>
+				<td>A</td>
 			</tr>
 			<tr>
 				<td>98-349</td>
 				<td>Student Taught Courses: Logic Puzzle StuCo</td>
-				<td>TBD</td>
+				<td>P</td>
 			</tr>
 			<tr>
 				<td>57-031</td>
 				<td>Composer's Forum</td>
-				<td>TBD</td>
+				<td>P</td>
 			</tr>
 			<tr>
 				<td>52-401</td>
 				<td>BXA Seminar V: Capstone</td>
-				<td>TBD</td>
+				<td>A</td>
 			</tr>
 		</tbody>
 		<thead>

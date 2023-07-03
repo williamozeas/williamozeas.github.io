@@ -2,7 +2,7 @@
 title: Tanks In Advance
 layout: landing
 description: 'A Mind-Bending 1v1 - Spring 2023'
-image: assets/images/dimensional_rift_still_3.jpg #TODO CHANGE
+image: assets/images/TIA/Header_Clip.gif #TODO CHANGE
 nav-menu: false
 show_tile: false
 featured_game: true
@@ -31,7 +31,7 @@ game_color: 5
 			<div class="4u 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid1')" onmouseleave="mouseoverBox(false, 'vid1')" onmouseclick="onPlayClick('vid1')">
 					<video loop id="vid1" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/dimensional_rift_building.mp4" type="video/mp4">
+						<source src="../assets/images/TIA/FightClip.mp4" type="video/mp4">
 					</video>
 					<h3>Command Pattern</h3>
 					<p>To implement the game's main mechanic, playing alongside your past selves, I wrote the game's base code, including movement and aiming, using the command pattern. This meant every action, like moving and shooting, was a timestamped object that was saved and replayed in the next round. I also manually wrote bullet ricochet code to avoid indeterminacy in Unity's physics system.</p>
@@ -41,7 +41,7 @@ game_color: 5
 			<div class="4u 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid2')" onmouseleave="mouseoverBox(false, 'vid2')" onmouseclick="onPlayClick('vid2')">
 					<video loop id="vid2" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/dimensional_rift_gameflow.mp4" type="video/mp4">
+						<source src="../assets/images/TIA/PregameClip.mp4" type="video/mp4">
 					</video>
 					<h3>Shader Stylizing</h3>
 					<p>With only one artist active on the team, I decided to focus on improving the visuals with code. Using Unity's Shader Graph and Render Features, I made shaders to seamlessly outline the grid-based maps, highlight tanks' movement behind walls. The outline shader uses a Sobel filter to highlight sharp changes in normal and depth buffers, which was necessary for seamless outlines on our block-based maps. </p>
@@ -51,7 +51,7 @@ game_color: 5
 			<div class="4u$ 6u$(medium) 12u$(small)">
 				<div class="box showcase" onmouseover="mouseoverBox(true, 'vid3')" onmouseleave="mouseoverBox(false, 'vid3')" onmouseclick="onPlayClick('vid3')">
 					<video loop id="vid3" controls play_on_click width="100%" style="margin-left: -0.25em;">
-						<source src="../assets/videos/dimensional_rift_gun_haybale.mp4" type="video/mp4">
+						<source src="../assets/images/TIA/FightClip2.mp4" type="video/mp4">
 					</video>
 					<h3>Other VFX</h3>
 					<p>As a VFX artist, I made stylized tank & mine explosions, a color-changing win circle, and a big laser.I started learning Unity's VFX graph with tutorials before modifying them or trying to make my own effects from scratch. I also used Blender to create a cylinder without circular sides and specific UVs and Krita to create a texture for the laser effect.</p>
@@ -62,7 +62,7 @@ game_color: 5
 				<div id="vid4parent" class="row box showcase" onmouseover="mouseoverBox(true, 'vid4', 'vid4parent')" onmouseleave="mouseoverBox(false, 'vid4', 'vid4parent')" onmouseclick="onPlayClick('vid4')">
 					<div class="4u 12u$(medium) bottom-box-image" id="design">
 						<video loop id="vid4" controls play_on_click width="100%" style="margin-left: -0.25em;">
-							<source src="../assets/videos/dimensional_rift_opening_cutscene.mp4" type="video/mp4">
+							<source src="../assets/images/TIA/TitleClip.mp4" type="video/mp4">
 						</video>
 					</div>
 					<div class="8u 12u$(medium) bottom-box" style="padding-bottom: 1em;">
