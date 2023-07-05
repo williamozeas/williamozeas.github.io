@@ -32,7 +32,7 @@ tile_index: 2
 					<header class="major">
 						<h3>Pig's Blood</h3>
 					</header>
-					<p>Pig's Blood: A Rabid Wolf Hunt is a detective noir-style visual novel where you must review evidence, interrogate suspects and call them out on their lies to solve the murder of one of the Three Little Pigs. This was my fourth and final game with Weekender Studios, my team for CMU 53-471. I programmed most of this game, including building <b>a scripting pipeline for writing</b>, <b>making visual effects</b>, <b>UI</b>, and more. In addition, I wrote over ten minutes of music and over 2000 lines of dialogue .</p>
+					<p>Pig's Blood: A Rabid Wolf Hunt is a detective noir-style visual novel where you must review evidence, interrogate suspects and call them out on their lies to solve the murder of one of the Three Little Pigs. This was my fourth and final game with Weekender Studios, my team for CMU 53-471. I programmed most of this game, including building <b>a scripting pipeline for writing</b>, <b>making visual effects</b>, <b>UI</b>, and more. In addition, I wrote over ten minutes of music and over 2000 lines of dialogue.</p>
 					<ul class="actions">
 						<li><a href="games/pigs_blood.html" class="button next">Read more</a></li>
 					</ul>
