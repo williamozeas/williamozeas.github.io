@@ -24,22 +24,6 @@ tile_index: 2
 <!-- Two -->
 <section id="two" class="spotlights">
 		<section>
-			<a href="games/pigs_blood.html" class="image fill">
-				<img src="{% link assets/images/PigsBlood/PigsClip4.gif %}" alt="" data-position="center center" />
-			</a>
-			<div class="content">
-				<div class="inner">
-					<header class="major">
-						<h3>Pig's Blood</h3>
-					</header>
-					<p>Pig's Blood: A Rabid Wolf Hunt is a detective noir-style visual novel where you must review evidence, interrogate suspects and call them out on their lies to solve the murder of one of the Three Little Pigs. This was my fourth and final game with Weekender Studios, my team for CMU 53-471. I programmed most of this game, including building <b>a scripting pipeline for writing</b>, <b>making visual effects</b>, <b>UI</b>, and more. In addition, I wrote over ten minutes of music and over 2000 lines of dialogue.</p>
-					<ul class="actions">
-						<li><a href="games/pigs_blood.html" class="button next">Read more</a></li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section>
 			<a href="games/tanks_in_advance.html" class="image fill">
 				<img src="{% link assets/images/TIA/Header_Clip.gif %}" alt="" data-position="center center" />
 			</a>
@@ -51,6 +35,22 @@ tile_index: 2
 					<p>Tanks In Advance, my final game and second as game co-lead in the Game Creation Society, has players fight alongside their past selves from previous rounds to defeat their opponent in a tank battle. I co-lead a team of around 10 members, <b>managing the programming and sound teams</b>, learning to be a <b>VFX artist</b>, and working as a <b>gameplay programmer</b>. In the end, we created a remarkably polished game for GCS and won the Best Sound award.</p>
 					<ul class="actions">
 						<li><a href="games/tanks_in_advance.html" class="button next">Read more</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<a href="games/pigs_blood.html" class="image fill">
+				<img src="{% link assets/images/PigsBlood/PigsClip4.gif %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>Pig's Blood</h3>
+					</header>
+					<p>Pig's Blood: A Rabid Wolf Hunt is a detective noir-style visual novel where you must review evidence, interrogate suspects and call them out on their lies to solve the murder of one of the Three Little Pigs. This was my fourth and final game with Weekender Studios, my team for CMU 53-471. I programmed most of this game, including building <b>a scripting pipeline for writing</b>, <b>making visual effects</b>, <b>UI</b>, and more. In addition, I wrote over ten minutes of music and over 2000 lines of dialogue.</p>
+					<ul class="actions">
+						<li><a href="games/pigs_blood.html" class="button next">Read more</a></li>
 					</ul>
 				</div>
 			</div>
@@ -69,6 +69,23 @@ tile_index: 2
 						<li><a href="https://willozeas.itch.io/giuseppe" class="button">Itch.io</a></li>
 						<li><a href="https://github.com/williamozeas/Giuseppe_Weekender" class="button">GitHub</a></li>
 						<li><a href="https://soundcloud.com/willowpet/sets/guiseppe" class="button">Soundtrack</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<a href="https://willozeas.itch.io/songbox" class="image fill">
+				<img src="{% link assets/images/Songbox/Songbox.gif %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>SongBox</h3>
+					</header>
+					<p>SongBox is an interactive audio-visual experience and tech demo made as my capstone at Carnegie Mellon. I used Max/MSP with RNBO for the audio engine, <b>building an audio plug-in</b> and <b>using it to generate all the audio</b> within Unity. This technology would let me do very complex adaptive audio synthesis if I require it for a game, but has too much overhead for projects that are workable in another software. However, Max/MSP audio plug-ins are a great tool to have in my toolbox.</p>
+					<ul class="actions">
+						<li><a href="https://willozeas.itch.io/songbox" class="button">Itch.io</a></li>
+						<li><a href="https://github.com/williamozeas/CMUCapstone" class="button">GitHub</a></li>
 					</ul>
 				</div>
 			</div>
