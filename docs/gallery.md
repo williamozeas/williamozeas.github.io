@@ -24,6 +24,23 @@ tile_index: 2
 <!-- Two -->
 <section id="two" class="spotlights">
 		<section>
+			<a href="https://scottking.itch.io/the-contrarian-press" class="image fill">
+				<img src="{% link assets/images/Contrarian/tcp_still_1.png %}" alt="" data-position="center center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>The Contrarian Press</h3>
+					</header>
+					<p>I made The Contrarian Press with a few other recent CMU Graduates for the GMTK 2023 game jam. To our surprise, we placed <b>11th out of almost 7,000</b> submissions, including <b>#4</b> in creativity. We are now expanding the game into a full experience targeting Steam. I did all the <b>sound effects and adaptive music</b>, as well as programming an <b>automated Google Sheets to Scriptable Object pipeline</b> and other general gameplay programming.</p>
+					<ul class="actions">
+						<li><a href="https://scottking.itch.io/the-contrarian-press" class="button">Itch.io</a></li>
+						<li><a href="https://soundcloud.com/willowpet/maquina-habanera" class="button">Soundtrack</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
 			<a href="games/tanks_in_advance.html" class="image fill">
 				<img src="{% link assets/images/TIA/Header_Clip.gif %}" alt="" data-position="center center" />
 			</a>
